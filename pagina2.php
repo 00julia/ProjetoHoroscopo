@@ -14,27 +14,21 @@
         $data = date_parse($_GET["data"]);
         
         switch($data["month"]){
-            case 1:
-            case 2:
-            case 3:
-                if($data["month"] == 3 and $data["day"] >= 20){
-                    echo "<img src='img/outono.png'>";
+             case 1:
+                if($data["day"] >= 20){
+                    echo "<capricornio.jpg'>";
                 } else{
-                    echo "<img src='img/verao.png'>";
+                    echo "<aquarius.jpg'>";
                 }
                 break;
-            case 4:
-            case 5:
-            case 6:
-                if($data["month"] == 6 and $data["day"] >= 21){
-                    echo "<img src='img/inverno.png'>";
+            case 2:
+                if($data["day"] >= 21){
+                    echo "<aquarius.jpg'>";
                 }else{
-                    echo "<img src='img/outono.png'>";
+                    echo "<peixes.jpg'>";
                 }
                 break;
-            case 7:
-            case 8:
-            case 9:
+            case 3:
                 if($data["month"] == 9 and $data["day"] >= 23){
                     echo "<img src='img/primavera.png'>";
                 } else {
