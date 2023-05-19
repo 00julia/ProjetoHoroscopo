@@ -16,34 +16,39 @@
         switch($data["month"]){
              case 1:
                 if($data["day"] >= 20){
-                    echo "<capricornio.jpg'>";
+                    echo "<capricornio.jpg>";
                 } else{
-                    echo "<aquarius.jpg'>";
+                    echo "aquarius.jpg>";
                 }
                 break;
             case 2:
-                if($data["day"] >= 21){
-                    echo "<aquarius.jpg'>";
+                if($data["day"] >= 20){
+                    echo "<aquarius.png>";
                 }else{
-                    echo "<peixes.jpg'>";
+                    echo "<peixes.png>";
                 }
                 break;
             case 3:
-                if($data["month"] == 9 and $data["day"] >= 23){
-                    echo "<img src='img/primavera.png'>";
+                if($data["day"] >= 19){
+                    echo "<.jpg>";
                 } else {
-                    echo "<img src='img/inverno.png'>";
+                    echo "<.jpg>";
                 }
                 break;
-            case 10:
-            case 11:
-            case 12:
-                if($data["month"] == 12 and $data["day"] >= 22){
-                    echo "<img src='img/verao.png'>";
+            case 4:
+                if( $data["day"] >= 22){
+                    echo "<.jpg>";
                 } else {
-                    echo "<img src='img/primavera.png'>";
+                    echo "<.jpg>";
                 }
                 break;
+            case 5:
+                if( $data["day"] >= 22){
+                    echo "<.jpg>";
+                } else {
+                    echo "<.jpg>";
+                }
+                break;      
             default:
                 echo "<p>Mês " .$data["month"]. " incorreto!</p>";        
         }
