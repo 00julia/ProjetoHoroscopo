@@ -9,7 +9,7 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <form action="pagina2.php" method="get">
+    <form action="horoscopogilberto2.php" method="get">
         <br><label for="lblData">Escolha uma data: </label>
         <input type="date" name="data">
         <input type="submit">
