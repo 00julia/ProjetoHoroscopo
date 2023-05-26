@@ -16,9 +16,9 @@
         switch($data["month"]){
              case 1:
                 if($data["day"] >= 20){
-                    echo "<capricornio.jpg>";
+                    echo "capricornio.jpg";
                 } else{
-                    echo "aquarius.jpg>";
+                    echo "aquarius.jpg";
                 }
                 break;
             case 2:
